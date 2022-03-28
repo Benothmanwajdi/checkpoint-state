@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Pic from "./picture";
 
 class ClassComponent extends Component {
   state = {
@@ -42,6 +43,13 @@ class ClassComponent extends Component {
         <button onClick={this.decrement}> - </button>
 
         <h1> {this.state.timer} </h1>
+        <h2>Ben othman Wajdi</h2>
+        <p>hello everybody</p>
+        
+          <Pic/>
+
+        
+      
       </div>
     );
   }
